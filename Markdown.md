@@ -44,10 +44,17 @@ _kursiv_
 
 __fett__
 ```
+*kursiv*
+
+_kursiv_
+
+**fett**
+
+__fett__
 
 ## Aufzählungen
 
-Aufzählungen können in Markdown mit einem Pluszeichen (`+`), einem Bindestrich (`-`) oder einer Zahl (`1.`) und einem Punkt erstellt werden. Unterpunkte können mit zwei Leerzeichen vor dem Bullet-Zeichen erstellt werden.
+Aufzählungen können in Markdown ganz einfach gemacht werden.
 ```
 1. geordnete Aufzählung
 2. geordnete Aufzählung
@@ -71,6 +78,12 @@ Links können in Markdown durch die Verwenden von eckigen Klammern und runden Kl
 
 
 ## Quellcode
+
+```
+```
+```
+```
+
 ```
 public static List<Track> getDataFromCsv(String fileName) {
         List<Track> importTrackList = new LinkedList<Track>();
