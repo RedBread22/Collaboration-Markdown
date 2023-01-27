@@ -80,11 +80,6 @@ Links können in Markdown durch die Verwenden von eckigen Klammern und runden Kl
 ## Quellcode
 
 ```
-```
-```
-```
-
-```
 public static List<Track> getDataFromCsv(String fileName) {
         List<Track> importTrackList = new LinkedList<Track>();
 
