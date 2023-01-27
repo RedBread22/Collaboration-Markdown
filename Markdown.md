@@ -52,6 +52,9 @@ Aufzählungen können in Markdown mit einem Pluszeichen (`+`), einem Bindestrich
 1. geordnete Aufzählung
 2. geordnete Aufzählung
 3. geordnete Aufzählung
+
+
+
   - Unterpunkt
   - Unterpunkt
     - Unter-Unterpunkt
@@ -103,15 +106,15 @@ public static List<Track> getDataFromCsv(String fileName) {
 Tabellen können in Markdown mit vertikalen Balken (`|`) und Bindestrichen (`-`) erstellt werden. Die Bindestriche dienen als Trennzeichen zwischen der Überschrift und dem Inhalt der Tabelle.
 
 ```
-|Spalte 1|Spalte 2|
-|--------|--------|
-|    A    |    B    |
-|    C    |    D    |
+Spalte 1 | Spalte 2   | Spalte 3
+-------- | ---------- | ----------
+*Inhalt* | **Inhalt** | ~~Inhalt~~
+Inhalt   | Inhalt     | Inhalt
 ```
-|Spalte 1|Spalte 2|
-|--------|--------|
-|    A    |    B    |
-|    C    |    D    |
+Spalte 1 | Spalte 2   | Spalte 3
+-------- | ---------- | ----------
+*Inhalt* | **Inhalt** | ~~Inhalt~~
+Inhalt   | Inhalt     | Inhalt
 ## Bilder
 
 Bilder können in Markdown ähnlich wie Links durch die Verwendung von eckigen Klammern und runden Klammern eingefügt werden. Der Text, der als Alternativtext angezeigt werden soll, steht in den eckigen Klammern, die URL des Bildes steht in den runden Klammern.
@@ -123,7 +126,7 @@ Bilder können in Markdown ähnlich wie Links durch die Verwendung von eckigen K
 ```
 Bsp.
 ```
-![Alt-Text](image/Bild.jpg)
+![Hier ist ein Text](image/Bild.jpg)
 
 
 ## Blockzitate
@@ -142,23 +145,29 @@ Bsp.
 
 ## Fußnoten
 
-Fußnoten können in Markdown mit einem eckigen Klammern (`[]`) für den Text und einem runden Klammern (`()`) mit einer Nummer für die Fußnote erstellt werden. Der Text der Fußnote wird am Ende des Dokuments definiert.
 
-```mixed
-Im Fließtext [^1] können Sie ganz einfach Fußnoten [^2] unterbringen.
-[^1]: Hier finden Sie den Text zu der Fußnote.
-[^2]: **Fußnoten** selbst können auch *formatiert* werden.
-Und diese umfassen sogar mehrere Zeilen.
 ```
 Im Fließtext [^1] können Sie ganz einfach Fußnoten [^2] unterbringen.
 [^1]: Hier finden Sie den Text zu der Fußnote.
 [^2]: **Fußnoten** selbst können auch *formatiert* werden.
-Und diese umfassen sogar mehrere Zeilen.
+```
+Im Fließtext [^1] können Sie ganz einfach Fußnoten [^2] unterbringen.
+[^1]: Hier finden Sie den Text zu der Fußnote.
+[^2]: **Fußnoten** selbst können auch *formatiert* werden.
 
 
 ## Task Listen
-
-Task Listen können in Markdown durch die Verwendung von Minuszeichen (-) und Leerzeichen, gefolgt von einem Häkchen (x) oder einem Leerzeichen erstellt werden. Ein Häkchen zeigt an, dass eine Aufgabe erledigt.
+```
+- [ ] Mercury - 
+- [x] Venus - 
+- [x] Earth (Orbit/Moon) - 
+- [x] Mars -
+- [ ]  [ ] Jupiter - 
+- [ ] [ ] Saturn -
+- [ ]  [ ] Uranus - 
+- [ ] [ ] Neptune -
+- [ ]  [ ] Comet Haley
+```
 - [ ] Mercury - 
 - [x] Venus - 
 - [x] Earth (Orbit/Moon) - 
@@ -188,10 +197,10 @@ Zeichen können in Markdown hoch- oder tiefgestellt werden, indem man sie mit de
 ```
 Hochgestellter Text:  4^4^
 Tiefgestellter Text: 5~2~ 
-
+```
 Hochgestellter Text:  4^4^
 Tiefgestellter Text: 5~2~ 
-```
+
 ## Deaktivierte URL-Verknüpfungen
 
 URLs können in Markdown deaktiviert werden, indem man sie mit dem `<` und `>` Zeichen einrahmt.
