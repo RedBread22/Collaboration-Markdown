@@ -68,9 +68,34 @@ Links können in Markdown durch die Verwenden von eckigen Klammern und runden Kl
 
 
 ## Quellcode
-```python
-def say_hello():
-    print("Hello, World!")
+```
+public static List<Track> getDataFromCsv(String fileName) {
+        List<Track> importTrackList = new LinkedList<Track>();
+
+        try (Reader in = new FileReader(fileName)) {
+
+            CSVFormat customFormat = CSVFormat.DEFAULT.withFirstRecordAsHeader().withDelimiter(';');
+            Iterable<CSVRecord> records = customFormat.parse(in);
+            int rowCount = 2;
+            for (CSVRecord record : records) {
+                System.out.println("read Row: " + rowCount++);
+                int col = 1;
+                String trackName = record.get(col++);
+                String album = record.get(col++);
+                int millisec = Integer.parseInt(record.get(col++));
+                double price = Double.parseDouble(record.get(col++));
+                Track newTrack = new Track(trackName, album, millisec, price);
+                importTrackList.add(newTrack);
+            }
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return importTrackList;
+    }
 ```
 
 ## Tabellen
@@ -98,7 +123,7 @@ Bilder können in Markdown ähnlich wie Links durch die Verwendung von eckigen K
 ```
 Bsp.
 ```
-
+![Alt-Text](image/Bild.jpg)
 
 
 ## Blockzitate
