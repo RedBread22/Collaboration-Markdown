@@ -201,7 +201,7 @@ URLs können in Markdown deaktiviert werden, indem man sie mit dem `<` und `>` Z
 
 ## Diagramme
 
-And this will produce a flow chart:
+Flow chart:
 
 ```mermaid
 graph LR
