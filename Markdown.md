@@ -193,13 +193,18 @@ Text kann mit zwei == markiert werden.
 
 ## Hochgestellte und tiefgestellte Zeichen
 
-Zeichen können in Markdown hoch- oder tiefgestellt werden, indem man sie mit dem `^` oder `~` Zeichen einrahmt.
+Hochgestellt
 ```
-Hochgestellter Text:  4^4^
-Tiefgestellter Text: 5~2~ 
+E=MC<sup>2</sup>
 ```
-Hochgestellter Text:  4^4^
-Tiefgestellter Text: 5~2~ 
+E=MC<sup>2</sup>
+
+Tiefgestellt
+```
+Pflanzen benötigen CO<sub>2</sub>
+```
+Pflanzen benötigen CO<sub>2</sub>
+
 
 ## Deaktivierte URL-Verknüpfungen
 
