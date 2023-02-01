@@ -124,7 +124,41 @@ Spalte 1 | Spalte 2   | Spalte 3
 *Inhalt* | **Inhalt** | ~~Inhalt~~
 Inhalt   | Inhalt     | Inhalt
 
+## Tabellen mit unterschiedlicher Text Ausrichtung ## 
 
+### Tabelle mit Kopfzeile
+
+Spalte links              Spalte rechts    Spalte mittig
+-----------------   ------------------- -------------------
+Zeile 1             Zeile 1             Zeile 1
+Zeile 2             Zeile 2             Zeile 2
+Zeile 3             Zeile 3             Zeile 3
+
+### Tabelle ohne Kopfzeile
+
+-       -         -  
+Zeile 1 Zeile 1   Zeile 1
+Zeile 2 Zeile 2   Zeile 2
+Zeile 3 Zeile 3   Zeile 3
+-       -         -
+
+```Markdown
+### Tabelle mit Kopfzeile
+
+Spalte links              Spalte rechts    Spalte mittig
+-----------------   ------------------- -------------------
+Zeile 1             Zeile 1             Zeile 1
+Zeile 2             Zeile 2             Zeile 2
+Zeile 3             Zeile 3             Zeile 3
+
+### Tabelle ohne Kopfzeile
+
+-       -         -  
+Zeile 1 Zeile 1   Zeile 1
+Zeile 2 Zeile 2   Zeile 2
+Zeile 3 Zeile 3   Zeile 3
+-       -         -
+```
 ## Bilder
 
 Bilder können in Markdown ähnlich wie Links durch die Verwendung von eckigen Klammern und runden Klammern eingefügt werden. Der Text, der als Alternativtext angezeigt werden soll, steht in den eckigen Klammern, die URL des Bildes steht in den runden Klammern.
