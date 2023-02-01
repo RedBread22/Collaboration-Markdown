@@ -123,6 +123,37 @@ Spalte 1 | Spalte 2   | Spalte 3
 -------- | ---------- | ----------
 *Inhalt* | **Inhalt** | ~~Inhalt~~
 Inhalt   | Inhalt     | Inhalt
+
+###Multiline mit Kopfzeile
+
+--------------------------------------------------------
+Spalte links       Spalte rechts   Spalte mittig
+---------------- ---------------- ----------------------
+In dieser Zelle\   Hier nicht!     In dieser Zelle wird 
+werden zwei\                       kein Umbruch gewagt, 
+Umbrüche gewagt.                   aber mehr Text 
+                                   geschrieben.      
+
+Zeile 2          Zeile 2          Zeile 2
+
+Hier wird eine\    Hier  nicht!    Hier auch nicht!
+Zeile gebrochen.
+--------------------------------------------------------
+
+###Multiline ohne Kopfzeile
+
+---------------- ---------------- ----------------------
+In dieser Zelle\   Hier nicht!     In dieser Zelle wird 
+werden zwei\                       kein Umbruch gewagt, 
+Umbrüche gewagt.                   aber mehr Text 
+                                   geschrieben. 
+                                   
+Zeile 2          Zeile 2          Zeile 2
+
+Hier wird eine\    Hier  nicht!    Hier auch nicht!
+Zeile gebrochen.
+---------------- ---------------- ----------------------
+
 ## Bilder
 
 Bilder können in Markdown ähnlich wie Links durch die Verwendung von eckigen Klammern und runden Klammern eingefügt werden. Der Text, der als Alternativtext angezeigt werden soll, steht in den eckigen Klammern, die URL des Bildes steht in den runden Klammern.
