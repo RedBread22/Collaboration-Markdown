@@ -66,6 +66,15 @@ Aufzählungen können in Markdown ganz einfach gemacht werden.
   - Unterpunkt
     - Unter-Unterpunkt
 ```
+1. geordnete Aufzählung
+2. geordnete Aufzählung
+3. geordnete Aufzählung
+
+
+
+  - Unterpunkt
+  - Unterpunkt
+    - Unter-Unterpunkt
 
 ## Links
 
