@@ -2,7 +2,7 @@
 
 Von Klemens Gassner und Johannes Neuper
 
-„Bei der Herstellung dieses Textes [oder wahlweise Bildes oder des Programmiercodes etc.] wurde ChatGPD eingesetzt. Mit folgenden Prompts habe ich die KI gesteuert: "1. Parallelität bei Programmen
+„Bei der Herstellung dieses Textes [oder wahlweise Bildes oder des Programmiercodes etc.] wurde ChatGPT eingesetzt. Mit folgenden Prompts habe ich die KI gesteuert: "1. Parallelität bei Programmen
 Was versteht man darunter?
 Anwendungsbereiche und Beispiele?
 Welche Vor- und Nachteile ergeben sich aus der Parallelität von Programmen., 2. Verteilte Systeme?
