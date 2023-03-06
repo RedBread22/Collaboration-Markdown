@@ -23,6 +23,12 @@ Was versteht man unter den folgenden Begriffen:
 Middleware, Multi-tier Architecture,
 API, Integration Platform, SW - Stack, Virtualization, Container, Micro Services;
 
+- [Fragen zum Thema Code "Smells"](#fragen-zum-thema-code-smells)
+  - [1. Parallelität bei Programmen](#1-parallelität-bei-programmen)
+  - [2. Why Software Architectur matters?](#2-why-software-architectur-matters)
+  - [3. Tiers vs. Layers: Worin besteht der Unterschied zwischen "Tiers" und "Layers" im Zusammenhang mit SW - Architektur (SOF)](#3-tiers-vs-layers-worin-besteht-der-unterschied-zwischen-tiers-und-layers-im-zusammenhang-mit-sw---architektur-sof)
+  - [4 Application Architectures](#4-application-architectures)
+
 
 ## 1. Parallelität bei Programmen
 
@@ -75,8 +81,6 @@ Beispiel: Eine Klasse, die eine globale Variable verwendet, die von vielen ander
 
    - Benutzerfreundlichkeit: Die Einfachheit, Klarheit und Effektivität der Benutzeroberfläche und der Interaktion mit der Software.
 
-   - Wartbarkeit: Die Fähigkeit der Software, Änderungen oder Reparaturen durchzuführen und zu implementieren, ohne dass andere Teile der Software beeinträchtigt werden.
-    
    2.1. Fokus auf die Priorität von Qualitätsattributen in Abhängigkeit von den Usecases.
    
       - E-Commerce-Website: In diesem Fall wäre Funktionalität die höchste Priorität, da die Website in der Lage sein muss, Bestellungen zu verarbeiten und Zahlungen sicher abzuwickeln. Benutzerfreundlichkeit und Leistung wären ebenfalls wichtige Faktoren, um sicherzustellen, dass die Kunden die Website einfach und schnell nutzen können.
