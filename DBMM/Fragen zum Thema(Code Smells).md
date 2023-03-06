@@ -2,17 +2,26 @@
 
 Von Klemens Gassner
 
-„Bei der Herstellung dieses Textes [oder wahlweise Bildes oder des Programmiercodes etc.] wurde ChatGPT eingesetzt. Mit folgenden Prompts habe ich die KI gesteuert: "1. Parallelität bei Programmen
+„Bei der Herstellung dieses Textes [oder wahlweise Bildes oder des Programmiercodes etc.] wurde ChatGPT eingesetzt. Mit folgenden Prompts habe ich die KI gesteuert: "Wie können die folgenden typischen "Fehler" beim Programmieren vermieden werden (Code Smells)
 Was versteht man darunter?
 Anwendungsbereiche und Beispiele?
-Welche Vor- und Nachteile ergeben sich aus der Parallelität von Programmen., 2. Verteilte Systeme?
+Was versteht man unter den folgenden Ausdrücken im Zusammenhang mit Code smells (Nennen Beispiele hierfür)
 Was versteht man darunter?
 Anwendungsbereiche und Beispiele?
-Welche Vor- und Nachteile ergeben sich aus der Verteilung von Programmen., 3. Was versteht man unter einem Prozess?
-Welche Eigenschaften hat ein Prozess?
-Was versteht man unter einem Thread?
-Zusammenhang/Unterscheidung von Prozess und Thread?, 4. Was versteht man unter Multithreading und was sind desen Vor und Nachteile?“1. Duplicate Code:
-Vermeiden Sie doppelten Code, indem Sie eine Funktion oder eine Klasse erstellen und den Code darin wiederverwenden. Eine andere Möglichkeit ist die Verwendung von Vererbung, um gemeinsame Funktionalitäten in einer Basis-Klasse zu definieren und diese in abgeleiteten Klassen zu erweitern.
+Why Software Architectur matters?
+Welche Anforderungen werden von unterschiedlicher Seite an die SW gestellt?
+Welche Qualitätsattribute für eine Software gibt es und was bedeuten sie?
+Fokus auf die Priorität von Qualitätsattributen in Abhängigkeit von den Usecases.
+Was sind die wichtigsten 3 SW - Architekturen gereiht nach deren historischen Entwicklung? 
+Wie unterscheiden sie sich voneinander? (Funktionsweise)
+Welche Vor- und Nachteile haben die jeweiligen Architekturen?
+Anwendungsbereiche/Beispiele der einzelnen Architekturen?
+Tiers vs. Layers: Worin besteht der Unterschied zwischen "Tiers" und "Layers" im Zusammenhang mit SW - Architektur (SOF)
+Erkläre die Unterschiede zwischen Server-based, Client/Server und Client-based Architecuture mit Beispielen, sowie deren Vor- und Nachteile
+Was versteht man unter den folgenden Begriffen: 
+
+Middleware, Multi-tier Architecture,
+API, Integration Platform, SW - Stack, Virtualization, Container, Micro Services;
 
 
 ## 1. Parallelität bei Programmen
